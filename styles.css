@@ -1,0 +1,38 @@
+.grid {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 890px;
+    height: 330px;
+    border: solid 1px black;
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:palevioletred;
+  }
+
+  #score{
+    text-align: center;
+    color: blueviolet;
+  }
